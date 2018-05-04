@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<link rel="shortcut icon" type="image/x-icon" href="IMG/icononaranja.ico" >
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Black Monkey Usuario</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Add custom CSS here -->
+    <link href="css/modern-business.css" rel="stylesheet">
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+	
+	<script type="text/javascript">
+function validate() {
+var pass = document.getElementById("pass");
+if(pass.value== "" || pass.value== null) {
+alert("Ingrese su Contraseña");
+pass.style.border = "2px solid red";
+return false;
+} else {
+txt.style.border = "";
+}
+var uss = document.getElementById("usuario");
+if(uss.value== "" || uss.value== null) {
+alert("Ingrese su Usuario");
+uss.style.border = "2px solid red";
+return false;
+} else {
+txt.style.border = "";
+}
+}
+
+</script>
+	
+</head>
+
+<body>
+
+<?php
+session_start();
+	session_destroy();
+	?>
+
+
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <!-- You'll want to use a responsive image option so this logo looks good on devices - I recommend using something like retina.js (do a quick Google search for it and you'll find it) -->
+                <a class="navbar-brand" href="index.php">  <img align ="top" src="IMG/logo.PNG" width="160" height="45"> </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="about.html">¡Oferta!</a>
+                    </li>
+                    <li><a href="contact.php">Contacto</a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Usuarios Destacados<b class="caret"></b></a>
+                       <ul class="dropdown-menu">
+                            <li><a href="portfolio-item.html">De la semana</a>
+                            </li>
+                      </ul>
+                    </li>
+					<li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Ayuda<b class="caret"></b></a>
+                       <ul class="dropdown-menu">
+                            <li><a href="ManualUsuarioTheBlackMonkey.pdf">Manual De Usuario</a>
+                            </li>
+							<li><a href="ManualTecnicoTheBlackMonkey.pdf">Manual Tecnico</a>
+                            </li>
+                      </ul>
+                    </li>
+					<!--
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="blog-home-1.html">Blog Home 1</a>
+                            </li>
+                            <li><a href="blog-home-2.html">Blog Home 2</a>
+                            </li>
+                            <li><a href="blog-post.html">Blog Post</a>
+                            </li>
+                        </ul>
+                    </li>
+					-->
+					
+					
+					
+<!--recubrimientos techos y fachadas Barraza-->
+
+<!--
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Other Pages <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="full-width.html">Full Width Page</a>
+                            </li>
+                            <li><a href="sidebar.html">Sidebar Page</a>
+                            </li>
+                            <li><a href="faq.html">FAQ</a>
+                            </li>
+                            <li><a href="404.html">404</a>
+                            </li>
+                            <li><a href="pricing.html">Pricing Table</a>
+                            </li>
+                        </ul>
+                    </li>
+					-->
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Page Content -->
+
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-lg-12">
+                <h1 class="page-header">Usuario Empleados</h1>
+               
+          </div>
+
+        </div>
+        <!-- /.row -->
+
+        <div class="row"></div>
+        <!-- /.row -->
+
+        <!-- Service Paragraphs -->
+
+        <div class="row"></div>
+        <!-- /.row -->
+
+        <!-- Service Tabs -->
+
+  <div class="row"></div>
+        <!-- /.row -->
+
+        <!-- Service Images -->
+
+      <div class="row"></div>
+        <!-- /.row -->
+
+</div>
+    <!-- /.container -->
+
+    <div class="container">
+      <div class="col-sm-4"> <img src="IMG/trabajador.jpg" width="400" height="300" class="img-responsive"></div>
+<p>&nbsp;</p>
+        <div class="form-group col-lg-4">
+        <p>
+          <label for="input2">
+            <form action="validarUsuario.php" method="post" onsubmit="return validate()">
+          </label>
+       
+        <table width="333" border="0">
+          <tr>
+            <td width="197"><label for="input3">Usuario</label></td>
+            <td width="126"><input type="text" name="usuario" id="usuario"></td>
+          </tr>
+          <tr>
+            <td><label for="input4">Contraseña</label></td>
+            <td><input type="password" name="pass" id="pass"></td>
+          </tr>
+        </table>
+        <p>
+          <label for="input2">            <br>
+          </label>
+        </p>
+        <p>&nbsp; </p>
+<input type="submit" name="Submit" value="Iniciar Sesión" /> <a href="agregarUsuario.html">Registrarse</a> 
+</div>
+        <footer>
+          <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright &copy; Black Monkey 2014</p>
+                </div>
+        </div>
+      </footer>
+    <!-- /.container -->
+
+    <!-- JavaScript -->
+    <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/modern-business.js"></script>
+<div align="right">
+<script type="text/javascript">
+var d = new Date();
+document.write(d.getDate(),'/'+d.getMonth(),'/'+d.getFullYear(),'<br>'+d.getHours(),':'+d.getMinutes());
+</script>
+</div>
+</body>
+
+</html>

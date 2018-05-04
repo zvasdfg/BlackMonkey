@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<menuCafe>
+	<cafe numero="1">
+		<nombre>Capuccino</nombre>
+		<op1>Moka</op1>
+		<op2>Vainilla</op2>
+		<op3>Canela</op3>
+	</cafe>
+	<cafe numero="2">
+		<nombre>Café</nombre>
+		<op1>Clasico</op1>
+		<op2>Panna</op2>
+		<op3>Americano</op3>
+	</cafe>
+	<cafe numero="3">
+		<nombre>Frapuccino</nombre>
+		<op1>Moka</op1>
+		<op2>Vainilla</op2>
+		<op3>Canela</op3>
+	</cafe>
+	<cafe numero="4">
+		<nombre>Aguas</nombre>
+		<op1>Jamaica</op1>
+		<op2>Limon</op2>
+		<op3>Frutas</op3>
+	</cafe>
+	<cafe numero="5">
+		<nombre>Jugos</nombre>
+		<op1>Naranja</op1>
+		<op2>Zanahoria</op2>
+		<op3>Toronja</op3>
+	</cafe>
+	<cafe numero="6">
+		<nombre>Licuado</nombre>
+		<op1>Platano</op1>
+		<op2>Fresa</op2>
+		<op3>Mango</op3>
+	</cafe>
+</menuCafe>

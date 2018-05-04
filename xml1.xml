@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<menuComida>
+	<comida numero="1">
+		<nombre>Pan Frances</nombre>
+		<op1>Con Mermerlada</op1>
+		<op2>Con Miel</op2>
+		<op3>Con Cajeta</op3>
+	</comida>
+	<comida numero="2">
+		<nombre>Hotcakes y Waffles</nombre>
+		<op1>Con Mermelada</op1>
+		<op2>Con Miel</op2>
+		<op3>Con Cajeta</op3>
+	</comida>
+	<comida numero="3">
+		<nombre>Cuernitos</nombre>
+		<op1>Con Mermelada</op1>
+		<op2>Con Miel</op2>
+		<op3>Con Cajeta</op3>
+	</comida>
+	<comida numero="4">
+		<nombre>Sandwiches</nombre>
+		<op1>De jamon</op1>
+		<op2>De pollo</op2>
+		<op3>De atun</op3>
+	</comida>
+	<comida numero="5">
+		<nombre>Croisant</nombre>
+		<op1>De jamon</op1>
+		<op2>De pollo</op2>
+		<op3>De atun</op3>
+	</comida>
+	<comida numero="6">
+		<nombre>Bagette</nombre>
+		<op1>De jamon</op1>
+		<op2>De pollo</op2>
+		<op3>De atun</op3>
+	</comida>
+</menuComida>
